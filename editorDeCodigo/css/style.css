@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+.contenedor {
+  margin-bottom: 10px;
+}
+.contenedor h2 {
+  text-align: center;
+}
+
+.contBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 10px;
+  margin: 15px 8px;
+}
+
+.contenedorText {
+  width: 100%;
+  height: 100vh;
+  display: inline-flex; /*display en linea*/
+}
+
+.textoClase {
+  resize: none;
+  margin: 0.4rem;
+  padding: 0.1rem;
+  width: 100%;
+}
+
+.textoClase::placeholder,
+.codigoClase::placeholder {
+  color: #fff;
+}
+
+iframe {
+  margin: 0.4rem;
+  padding: 0.1rem;
+  width: 100%;
+  background-color: #fff;
+  /* border: none; */
+  border-radius: 2px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/*                            CLASES AGREGADAS CON JAVASCRIP                            */
+/*--------------------------------------------------------------------------------------*/
+body.bodyBg,
+.textoClase.textoBg {
+  background: #252850;
+}
+.contenedor h2.colorTitulo,
+.textoClase.textoColor {
+  color: #fff;
+}
+
+.textoClase.outline {
+  outline: 2px solid #fff;
+}
+.textoClase.borRad {
+  border-radius: 2px;
+}
